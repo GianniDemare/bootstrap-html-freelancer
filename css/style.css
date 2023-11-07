@@ -1,7 +1,47 @@
 /* CSS RESET */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* SELEZIONE ID */
 
 /* SELEZIONE TAG */
 
+header{
+    height: 50px;
+    background-color: rgb(33, 37, 41);
+}
+
+
+a{
+    margin-top: 15px;
+}
+
 /* SELEZIONE CLASSI */
+
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 10px;
+}
+
+.bg-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bg-img{
+    width: 60%;
+    
+}
+
+.t-decoration{
+    text-decoration: none;
+}
+
