@@ -15,6 +15,10 @@ header{
     background-color: rgb(33, 37, 41);
 }
 
+footer{
+    height: 150px;
+    background-color: rgb(33, 37, 41);
+}
 
 a{
     margin-top: 15px;
@@ -27,8 +31,19 @@ a{
     flex-wrap: wrap;
 }
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-form{
+    display: flex;
+}
+
 .card{
     margin: 10px;
+    display: flex;
+    min-width: 300px;
 }
 
 .bg-header{
@@ -36,11 +51,18 @@ a{
     justify-content: space-around;
 }
 
-.bg-img{
-    width: 60%;
-    
+.bg-footer{
+    display: flex;
+    flex-direction: column;
 }
 
+.bg-img{
+    width: 60%;
+}
+
+.bg-text{
+    color: rgb(81, 101, 110);
+}
 .t-decoration{
     text-decoration: none;
 }
